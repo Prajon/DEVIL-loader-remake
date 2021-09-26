@@ -1,0 +1,18 @@
+local place = game.PlaceId
+
+
+if place == 3823781113 then -- https://www.roblox.com/games/4704006941/PERKS-Blade-Throwing-Simulator
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/Saber-Simulator/main/Saber-Simulator-FREE-SCRIPT", true))()
+else
+	if place == 6284583030 then --- pet simulator x
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
+	else
+		if place == 6872265039 then ---bed war
+			loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/8d97f1f9-43e3-482a-973b-539c86fa70ec')()	
+		else
+			if place == 3956818381 then ---ninja legend
+				loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()
+			end
+		end
+	end
+end
