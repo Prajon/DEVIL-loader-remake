@@ -12,6 +12,10 @@ else
 		else
 			if place == 3956818381 then ---ninja legend
 				loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()
+			else
+				if place == 3857052864 then ---https://www.roblox.com/games/3857052864/The-Rake-Fan-Remake
+					loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustsense/Trusthub/main/TheRake"))()
+				end
 			end
 		end
 	end
