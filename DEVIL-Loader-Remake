@@ -15,6 +15,10 @@ else
 			else
 				if place == 3857052864 then ---https://www.roblox.com/games/3857052864/The-Rake-Fan-Remake
 					loadstring(game:HttpGet("https://raw.githubusercontent.com/Trustsense/Trusthub/main/TheRake"))()
+					else
+						if place == 286090429 then ---arsenal
+							loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+					end
 				end
 			end
 		end
