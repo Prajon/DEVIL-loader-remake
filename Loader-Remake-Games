@@ -1,5 +1,4 @@
-local place = game.PlaceId
-{
+placeid = {
 place == 3823781113; ---saber sim
 place == 6284583030; ---pet sim x
 place == 6872265039; ---bed war
