@@ -1,7 +1,7 @@
 local place = game.PlaceId
 
 
-if place == 3823781113 then -- https://www.roblox.com/games/4704006941/PERKS-Blade-Throwing-Simulator
+if place == 3823781113 then -- saber sim
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/Saber-Simulator/main/Saber-Simulator-FREE-SCRIPT", true))()
 else
 	if place == 6284583030 then --- pet simulator x
