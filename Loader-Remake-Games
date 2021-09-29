@@ -1,0 +1,10 @@
+local place = game.PlaceId
+{
+place == 3823781113; ---saber sim
+place == 6284583030; ---pet sim x
+place == 6872265039; ---bed war
+place == 3956818381; ---ninja legend
+place == 3857052864; ---https://www.roblox.com/games/3857052864/The-Rake-Fan-Remake
+place == 286090429; ---arsenal
+}
+return placeid
