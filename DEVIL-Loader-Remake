@@ -8,7 +8,7 @@ else
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/si1nnx/psxx/main/g"))()
 	else
 		if place == 6872265039 then ---bed war
-			loadstring(game:HttpGet'https://dogix.wtf/scripts/noboline/8d97f1f9-43e3-482a-973b-539c86fa70ec')()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 		else
 			if place == 3956818381 then ---ninja legend
 				loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()
