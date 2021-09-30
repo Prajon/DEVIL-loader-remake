@@ -18,6 +18,10 @@ else
 					else
 						if place == 286090429 then ---arsenal
 							loadstring(game:HttpGet(('https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init'), true))()
+						else
+							if place == 7393403076 then ---anime artifact
+								loadstring(game:HttpGet("https://raw.githubusercontent.com/DevPolarhub/AnimeArtifacts/main/script"))()
+						end
 					end
 				end
 			end
