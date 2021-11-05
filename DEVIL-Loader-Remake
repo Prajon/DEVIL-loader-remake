@@ -27,6 +27,10 @@ else
 								else
 									if place == 7549229959 then ---Squid Game
 										loadstring(game:HttpGet(("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/SquidGame.lua")))()
+									else
+										if place == 6679274937 then ---vans world
+											loadstring(game:HttpGet(("https://raw.githubusercontent.com/Prajon/DEVIL-loader-remake/main/Vans%20World")))()
+									end
 								end		
 							end
 						end
