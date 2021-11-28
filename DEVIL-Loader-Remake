@@ -1,9 +1,3 @@
-spawn(function()
-https://raw.githubusercontent.com/Prajon/TEN-SON-WEBHOOK/main/loader-handler
-end)
-
-
-spawn(function()
 local place = game.PlaceId
 
 
@@ -47,4 +41,3 @@ else
 	end
 end
 
-end) --spawn(function()
