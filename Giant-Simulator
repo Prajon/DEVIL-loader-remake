@@ -1,1 +1,119 @@
 
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+local u = library:CreateWindow("DEVIL SCRIPT")
+local a = u:CreateFolder("Auto Farm")
+
+
+getgenv().autoclick = false
+getgenv().adking = false
+getgenv().farmgnome = false
+getgenv()autoborockfarm = false
+
+
+
+a:Toggle("Auto Click",function(bool)
+	getgenv().autoclick = bool
+		print('Auto Click is: ', bool);
+		if bool then
+		doautoclick();
+	end
+end)
+
+a:Toggle("Auto Demon King",function(bool)
+	getgenv().adking = bool
+		print('Auto Demon King is: ', bool);
+		if bool then
+		bringadking();
+	end
+end)
+
+a:Toggle("Bring Borock",function(bool)
+	getgenv().autoborockfarm = bool
+		print('Bring Borock is: ', bool);
+		if bool then
+		bringborocktome();
+	end
+end)
+
+a:Toggle("Farm Gnome",function(bool)
+	getgenv().farmgnome = bool
+		print('Farm Gnome is: ', bool);
+		if bool then
+		bringgnome();
+	end
+end)
+
+a:Button("Bring Golden Egg",function()
+    bringgoldegg()
+end)
+
+
+function doautoclick()
+spawn(function()
+while autoclick do
+    wait()
+		game.ReplicatedStorage.Aero.AeroRemoteServices.GameService.WeaponAttackStart:FireServer()
+		game.ReplicatedStorage.Aero.AeroRemoteServices.GameService.WeaponAnimComplete:FireServer()
+    end
+end)
+end
+
+function bringgoldegg()
+    spawn(function()
+        for i,v in pairs(game.Workspace:GetChildren())do
+    		if v.Name == "Egg" then
+    			v.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
+    		end
+        end
+    end)
+end
+
+function bringadking()
+spawn(function()
+    game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2562.13428, 234.360229, -1703.6488, -0.957299113, -3.14507567e-08, -0.289099216, -4.90414074e-08, 1, 5.36028359e-08, 0.289099216, 6.54917827e-08, -0.957299113)
+    while adking do
+        wait()
+            for i,v in pairs(game:GetService("Workspace").NPC:GetDescendants()) do
+    			if v.ClassName == "Model" and v.Name == "DemonKing" then
+    			    v.HumanoidRootPart.Anchored = true
+    				game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame
+    			end
+    		end
+        end
+    end)
+end
+
+
+function bringborocktome()
+    spawn(function()
+        while autoborockfarm do
+        wait()
+            for i,v in pairs(game:GetService("Workspace").NPC:GetDescendants()) do
+        		if v.ClassName == "Model" and v.Name == "Borock" then
+        		    v.HumanoidRootPart.Anchored = true
+        			v.HumanoidRootPart.CFrame = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
+        		end
+            end
+        end
+    end)
+end
+
+
+function bringgnome()
+    spawn(function()
+        pcall(function()
+        game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6740.45801, 258.791382, -1678.01086, -0.999014258, 2.42122198e-08, 0.0443900526, 2.4671353e-08, 1, 9.79532722e-09, -0.0443900526, 1.08808349e-08, -0.999014258)
+        while farmgnome do
+        wait()
+        for N,M in pairs(game.Workspace.NPC.Gnomes:GetDescendants())do 
+			if  M.Name=="HumanoidRootPart"then 
+				wait()
+				M.CFrame=game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame;
+			end
+		end
+        end
+        end)
+    end)
+end
+
+
