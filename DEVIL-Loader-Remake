@@ -31,7 +31,7 @@ else
 										if place == 6679274937 then ---vans world
 											loadstring(game:HttpGet(("https://raw.githubusercontent.com/Prajon/DEVIL-loader-remake/main/Vans%20World")))()
 										else
-											if place == 2986677229 then
+											if place == 2986677229 then --
 											loadstring(game:HttpGet(('https://raw.githubusercontent.com/Prajon/DEVIL-loader-remake/main/Giant-Simulator')))()
 										end
 									end
