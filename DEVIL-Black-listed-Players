@@ -1,0 +1,11 @@
+userids = {
+[123456789] = true
+}
+return userids
+
+--[[
+local whitelistecheck = loadstring(game:HttpGet("https://pastebin.com/raw/IDHERE", true))()
+if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
+game:service('Players').LocalPlayer:Kick('You Have Been BlackListed From Using DEVIL's Script')
+end
+]]
