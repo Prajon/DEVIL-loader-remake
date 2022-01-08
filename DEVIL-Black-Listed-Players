@@ -1,11 +1,10 @@
-userids = {
-[123456789] = true
-}
-return userids
-
 --[[
 local whitelistecheck = loadstring(game:HttpGet("https://raw.githubusercontent.com/Prajon/DEVIL-loader-remake/main/DEVIL-Black-listed-Players", true))()
 if whitelistecheck[game:service('Players').LocalPlayer.UserId] then
 game:service('Players').LocalPlayer:Kick('You Have Been BlackListed From Using DEVIL's Script')
 end
 ]]
+userids = {
+[123456789] = true
+}
+return userids
