@@ -1,6 +1,7 @@
 userids = {
 [2011986864] = false, --Vip script leaked / Mususe in scam
-[1163598730] = true --USD_Majintresh hacked and changed acc
+[1163598730] = true, --USD_Majintresh hacked and changed acc
+[525260925] = true -- nigga care about ban
 
 }
 return userids
