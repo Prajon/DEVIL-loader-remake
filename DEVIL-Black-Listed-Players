@@ -5,7 +5,8 @@ userids = {
 [3392467949] = true, --was using my vip script
 [3476727601] = true, --skid tried to use remote spy
 [1519852629] = true, --skip tried to use remote spy
-[1389534613] = true
+[1389534613] = true, --skip tried to use remote spy(Dm me to)
+[2237111753] = true
 
 }
 return userids
