@@ -7,7 +7,8 @@ userids = {
 [1519852629] = true, --skip tried to use remote spy
 [1389534613] = true, --skip tried to use remote spy
 [2237111753] = true, --skip tried to use remote spy(Dm me to)
-[3328144056] = true --skip tried to use remote spy
+[3328144056] = true, --skip tried to use remote spy
+[931083980] = true --skip tried to use remote spy
 
 }
 return userids
